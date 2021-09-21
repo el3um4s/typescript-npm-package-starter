@@ -1,5 +1,5 @@
 {
-  "name": "typescript-npm-package-starter",
+  "name": "@el3um4s/typescript-npm-package-starter",
   "version": "0.0.1",
   "description": "Typescript NPM Package Starter",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
+    "prepublishOnly" : "npm run lint",
     "preversion" : "npm run lint",
     "version" : "git add -A src",
     "postversion" : "git push && git push --tags"
@@ -18,6 +18,9 @@
     "type": "git",
     "url": "git+https://github.com/el3um4s/typescript-npm-package-starter.git"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "keywords": ["typescript", "npm", "template", "ts"],
   "author": "Samuele C. De Tomasi",
   "license": "MIT",
@@ -34,6 +37,7 @@
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+    "ansi-regex": ">=6.0.1"
   }
 }
