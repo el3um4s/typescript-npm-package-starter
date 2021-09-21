@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./lib",
+        "module": "ES2020", // commonjs
+        "target": "ES2019",
+        "lib": [
+            "ES2019",
+            "DOM",
+            "ES2020"
+        ],
+        "declaration": true,
+        "strict": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "**/__tests__/*"]
+}
