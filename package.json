@@ -1,6 +1,6 @@
 {
   "name": "@el3um4s/typescript-npm-package-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Typescript NPM Package Starter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,11 +8,11 @@
     "build": "tsc",
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,12 @@
   "files": [
     "lib/**/*"
   ],
-  "keywords": ["typescript", "npm", "template", "ts"],
+  "keywords": [
+    "typescript",
+    "npm",
+    "template",
+    "ts"
+  ],
   "author": "Samuele C. De Tomasi",
   "license": "MIT",
   "bugs": {
