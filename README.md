@@ -77,3 +77,20 @@ and then
 ```bash
 npm publish
 ```
+
+### Install the package
+
+To use the package in a project:
+
+```bash
+npm i @el3um4s/typescript-npm-package-starter
+```
+
+and then in a file:
+
+```ts
+import { ciao } from "@el3um4s/typescript-npm-package-starter";
+
+const b = ciao("mondo");
+console.log(b); // Ciao Mondo
+```
