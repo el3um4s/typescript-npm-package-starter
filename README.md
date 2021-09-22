@@ -1,6 +1,4 @@
-# typescript-npm-package-starter
-Typescript NPM Package Starter
-
+# Typescript NPM Package Starter
 My template for creating npm packages using typescript.
 
 - TS to JS complication
@@ -78,7 +76,7 @@ and then
 npm publish
 ```
 
-### Install the package
+### Install and use the package
 
 To use the package in a project:
 
