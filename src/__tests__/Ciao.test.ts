@@ -5,4 +5,4 @@ test('ciao', () => {
 
 test("myCustomFunction", () => {
   expect(myCustomFunction('Mario')).toBe('Hello Mario');
-})
+});
