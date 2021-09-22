@@ -8,6 +8,8 @@ My template for creating npm packages using typescript.
 - ESLint
 - Ignore files to ensure minimal code is stored/shipped
 
+NPM link: [@el3um4s/typescript-npm-package-starter](https://www.npmjs.com/package/@el3um4s/typescript-npm-package-starter)
+
 ### Getting Started
 
 To create a new project based on this template using degit:
