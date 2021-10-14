@@ -1,7 +1,7 @@
 # Typescript NPM Package Starter
 My template for creating npm packages using typescript.
 
-- TS to JS complication
+- TS to JS
 - Testing via Jest, includes coverage
 - ESLint
 - Ignore files to ensure minimal code is stored/shipped
