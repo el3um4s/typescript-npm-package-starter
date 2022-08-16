@@ -1,6 +1,6 @@
 {
   "name": "@el3um4s/typescript-npm-package-starter",
-  "version": "0.0.14",
+  "version": "1.0.0",
   "description": "Typescript NPM Package Starter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
